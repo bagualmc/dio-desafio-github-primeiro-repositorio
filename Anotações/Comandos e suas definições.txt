@@ -1,0 +1,36 @@
+Comandos e suas funções.
+
+# git add - Move as alterações do diretório de trabalho para a área de staging.
+# git branch - é a ferramenta de administração de ramificações de uso geral. Permite criar ambientes de desenvolvimento isolados em um único repositório. cria novas branches, mas também pode funcionar como uma forma de verificar as ramificações já existentes.
+# git pull - Faz o download de ramificação de um repositório remoto e faz a mesclagem imediata na ramificação atual. 
+# git push - Para subir as alterações de uma ramificação para um certo repositório. Ele entrega todos os commits e a mensagem
+# git push -u <remote> <nome-da-branch> - Depois de criar uma ramificação, para subir essa ramificação.
+# git branch -d <nome-da-branch> - para deletar uma branch,
+#git merge - Integrar alterações de ramificações divergentes. Após bifurcar o histórico do projeto com o git branch, o git merge permite unificar o histórico de novo. Depois de programar em uma branch, você tem que fazer uma conjunção dela com outras para de fato subir as alterações. É só colocar o nome da branch que desejamos mesclar com a principal depois do termo
+# git checkout - Além de verificar commits antigos e revisões de arquivos antigos, o git checkout também é a forma de navegar pelas ramificações existentes. Combinado com os comandos básicos do Git, é a maneira de trabalhar em determinada linha de desenvolvimento.
+# git clean - Remove os arquivos não monitorados do diretório de trabalho. Esse é o correspondente lógico do git reset, que (em geral) só opera em arquivos monitorados.
+# git clone - cria uma cópia de um reposítório existente no github.
+# git commit - Ele leva as mudanças de um ambiente local para o repositório no git, permitindo ainda a inserção de uma mensagem descritiva.
+# git commit -m "meu primeiro commit" - A flag -m indica que vamos adicionar uma mensagem para aquele commit
+# git init - Se usa para começar um repositório. Ele transforma uma pasta com códigos no seu HD em uma pasta monitorada pelo git, que será carregada para a plataforma e estará visível para outras pessoas. Ou então cria um repositório novo, do zero.
+# git status - Para saber algumas informações sobre a ramificação na qual você está trabalhando agora. Esse comando esclarece quais arquivos foram alterados e faz uma comparação com relação à ramificação principal.
+# git diff - Se o comando git status for muito vago — você quer saber exatamente o que você alterou, não apenas quais arquivos foram alterados — você pode utilizar o comando. 
+#git diff --cached - Apesar do comando git status responder essas duas perguntas de maneira geral, o git diff mostra as linhas exatas que foram adicionadas e removidas — o patch, por assim dizer.
+Se você quer ver o que selecionou que irá no seu próximo commit.
+# git revert - para garantir a segurança dos nossos projetos. Permite desfazer algum commit e recuperar uma versão saudável, seja localmente, seja remotamente. Para usá-lo, é preciso primeiro executar um “git log -- oneline” para obter o número do hash. Com o hash, então, é possível digitar: “git revert 'nº do hash'”. Desfaz o commit de um instantâneo. Ao identificar um commit com falha, uma maneira fácil e segura de realizar a sua remoção da base de código é por meio da reversão.
+# git rm - é para remover arquivos do git e parar de monitorá-los, ou seja, de associá-los ao repositório.
+# git stash - Serve para criar uma pilha de alterações que serão enviadas posteriormente para o repositório. É uma boa forma de guardar algumas mudanças em espera enquanto você muda de branch para trabalhar em outros aspectos do sistema. É ideal para sistemas grandes, com muitas ramificações que demandam essa flexibilidade da pessoa programadora.
+# git config - comando inicial para vincular o trabalho no repositório com sua conta no github. Assim, é configurado com o nome e com o e-mail. [git config --global user.name"Nome do usuário" e git config --global user.email exemplo@provedor.com]
+# git reset - É outra forma de voltar ao último estado saudável do seu sistema, uma alternativa ao revert. [git reset --hard]
+
+
+
+
+
+
+## Referência ##
+https://comandosgit.github.io/
+https://blog.somostera.com/desenvolvimento-web/comandos-git
+https://blog.cod3r.com.br/guia-basico-de-git-como-fazer-commit-no-github/
+https://www.atlassian.com/br/git/glossary
+https://blog.cod3r.com.br/guia-basico-de-git-como-fazer-commit-no-github/
