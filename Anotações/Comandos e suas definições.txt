@@ -46,6 +46,22 @@ Se você quer ver o que selecionou que irá no seu próximo commit.
 # git reset - É outra forma de voltar ao último estado saudável do seu sistema, uma alternativa ao revert. [git reset --hard]
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Referência ##
 https://comandosgit.github.io/
 https://blog.somostera.com/desenvolvimento-web/comandos-git
